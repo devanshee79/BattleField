@@ -51,6 +51,15 @@ function Soldier() {
           items={items}
           onChange={onChange} 
           className='tab-container' />
+          <div className="level-wrapper">
+            <div className="level-icon">
+              <div className="level-bar"></div>
+              <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1b899e303b6e902c5e4_home__level-icon.png" alt="" className='level-icon1'/>
+              <div className="level-flare"></div>
+              <div className="level-flare-shadow"></div>
+            </div>
+            <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038f71092c1304bda9086db_BF4__logo.png" alt="" className='level-logo'/>
+          </div>
           <Rightmenu />
         </div>
     </div>
