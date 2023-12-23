@@ -1,0 +1,10 @@
+/* .first{
+} */
+.solid-container{
+    display: flex;
+    flex-direction: row; 
+}
+.tab-container{
+    width: 1800px;
+    margin: 20px 40px 20px 40px;
+}

@@ -6,7 +6,10 @@ const soldierModel = require('./model/soldierModel.js');
 const path = require("path");
 const app = express();
 const PORT = 5000;
+const cors = require('cors');
 dotenv.config({path: './config.env'});
+
+app.use(cors())
 
 app.use(express.json());
 
