@@ -1,5 +1,5 @@
 import React from 'react';
-import '../resources/leftMenu.css';
+import '../resources/rightMenu.css';
 
 const rightMenu = () => {
   const onClick = (e) => {

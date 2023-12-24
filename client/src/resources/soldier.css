@@ -3,8 +3,65 @@
 .solid-container{
     display: flex;
     flex-direction: row; 
+    /* background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038f70ef0141a2f22d50f58_menu__background.jpg"); */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 12, 19, .6), rgba(0, 12, 19, .6)), url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038f70ef0141a2f22d50f58_menu__background.jpg");
 }
 .tab-container{
     width: 1800px;
     margin: 20px 40px 20px 40px;
+}
+
+
+.level-icon1{
+    display: block;
+}
+
+.level-flare{
+    z-index: 3;
+    background-image: url('https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038d3f46cf89081fabbb194_level-flare.png');
+    background-position: 50%;
+    background-size: cover;
+
+}
+.level-bar{
+    width: 9vh;
+    height: 9vh;
+    border: 2px solid#ee930e;
+    border-style: solid solid none none;
+    border-radius: 100%;
+    justify-content: center;
+    position: relative;
+    top: 65px;
+    left: 30px;
+    align-items: center;
+}
+
+.level-flare-shadow{
+    border-radius: 100%;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(255, 255, 255, .4);
+}
+
+.level-logo{
+    height: 25px;
+}
+  :where(.css-dev-only-do-not-override-gzal6t)[class^="ant-tabs"] [class^="ant-tabs"], :where(.css-dev-only-do-not-override-gzal6t)[class*=" ant-tabs"] [class^="ant-tabs"]
+  {
+    color: white;
+  }
+
+
+  .ant-tabs-tab-btn:hover {
+    background-color: #ffd700; /* Set the desired background color */
+    color: white; /* Set the desired text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  .ant-tabs-tab-btn:active,
+.ant-tabs-tab-btn:focus {
+  color: #fff; /* Set the text color to white */
+  outline: none; /* Remove the default focus outline if you don't want it */
+}
+:where(.css-dev-only-do-not-override-gzal6t)[class^="ant-tabs"] [class^="ant-tabs"], :where(.css-dev-only-do-not-override-gzal6t)[class*=" ant-tabs"] [class^="ant-tabs"]{
+    color: white;
 }

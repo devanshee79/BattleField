@@ -1,0 +1,253 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.start{
+    display: flex;
+    flex-direction: row;
+}
+
+/* SOLDIER LOOK */
+
+.soldier-look{
+    bottom: 90px;
+    z-index: 5;
+    right: 70px;
+    position: relative;
+    /* background-color: aqua; */
+}
+
+.soldier-some-part{
+    z-index: 2;
+    position: relative;
+    top: 400px;
+}
+.dog-tag-right{
+    bottom: 90px;
+    position: relative;
+    left: 60px;
+    height: 110px;
+}
+.dog-tag-left{
+    position: relative;
+    top: 30px;
+    right: 250px;
+}
+.soldier-pic{
+    height: 500px;
+}
+
+/* SOLDIER DATA */
+
+.soldier-menu-w{
+    /* background-color: thistle; */
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 150px;
+    
+}
+
+.soldier-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.soldier-menu-status-header{
+    position: relative;
+    left: 20px;
+    /* top: 20px; */
+}
+
+.soldier-content, .soldier-level-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.soldier-info, .soldier-level-status, .soldier-data,.soldier-game-stats-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.soldier-game-stats-top{
+    margin: 0 0 40px 0;
+    position: relative !important;
+    right: 40px !important;
+}
+
+.soldier-game-stats-top-container{
+    padding: 0px 40px;
+}
+
+.soldier-game-status-header{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.soldier-game-status-value{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.soldier-game-stats-bottom{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.soldier-game-stats-bottom-container{
+    background-color: rgba(16, 16, 16, 0.5);
+    width: 250px;
+    height: 200px;
+
+}
+.c1:hover, .c2:hover, .c3:hover, .c4:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.c1:hover .sub1, 
+.c1:hover .sub2,
+.c1:hover .h1{
+    opacity:  1;
+    color: black;
+}
+
+.c2:hover .sub3, 
+.c2:hover .sub4,
+.c2:hover .h2{
+    opacity:  1;
+    color: black;
+}
+.c3:hover .sub5, 
+.c3:hover .sub6,
+.c3:hover .h3{
+    opacity:  1;
+    color: black;
+}
+.c4:hover .sub7, 
+.c4:hover .sub8,
+.c4:hover .h4{
+    opacity:  1;
+    color: black;
+}
+
+.h4, .h3, .h2, .h1{
+    color: white;
+}
+
+.img_class{
+    position: absolute;
+    top: 230px;
+    left: 490px;
+}
+.img_class1{
+    position: absolute;
+    top: 240px;
+    left: 760px;
+}
+.img_class2{
+    position: absolute !important;
+    top: 460px!important;
+    left: 580px !important;
+}
+.img_class3{
+    position: absolute;
+    top: 450px;
+    left: 810px;
+}
+.sub1{
+    opacity: 1;
+}
+.sub3{
+    opacity: 1;
+}
+.sub5{
+    opacity: 1;
+}
+.sub7{
+    opacity: 1;
+}
+.sub2{
+    opacity: 0;
+}
+.sub4{
+    opacity: 0;
+}
+.sub6{
+    opacity: 0;
+}
+.sub8{
+    opacity: 0;
+}
+.img_class2{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.soldier-game-stats-bottom-container-header{
+    letter-spacing: .15vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.3vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+
+.soldier-game-stats-bottom-container-info{
+    position: relative;
+    bottom: 0px;
+    left: 1vh;
+}
+
+.soldier-game-stats-bottom-container-info-h{
+    letter-spacing: .05vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.4vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    color: white;
+}
+
+.soldier-game-stats-bottom-container-info{
+    position: relative;
+    top: 140px;
+    right: 30px;
+    align-items: left;
+}
+.soldier-game-stats-bottom-container-header{
+    position: relative;
+    top: 10px;
+    right: 70px;
+    font-size: 12px;
+}
+.soldier-game-stats-bottom-container-info-h{
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.soldier-game-stats-bottom-container-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+    right: 70px;
+    align-items: start;
+    justify-content: start;
+}
+
+.soldier-game-stats-bottom-container-info-value{
+    font-size: 12px;
+    font-weight: 50;
+}

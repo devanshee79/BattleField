@@ -6,59 +6,64 @@ const leftMenu = () => {
     console.log('click ', e);
   };
   return (
+    <div className='main-container'>
     <div className="vertical-menu">
-        <ul className='middle-section'>          
+        <ul className='middle-section'>     
+
+            <div className="middle-container ">
+              <div className="side-popup tab1">
+                <div className="ide-text tab-1-text">BATTLEFIELD V</div>              
+              </div>
+            </div>
+
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">BATTLEFIELD V</div>
+              <div className="side-popup tab2">
+                <div className="ide-text tab-2-text">BATTLEFIELD 1</div>
               </div>
             </div>
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">BATTLEFIELD 1</div>
+              <div className="side-popup tab3">
+                <div className="ide-text tab-3-text">BATTLEFIELD 4</div>
               </div>
             </div>
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">BATTLEFIELD 4</div>
+              <div className="side-popup tab4">
+                <div className="ide-text tab-4-text">BATTLEFIELD HARDLINE</div>
               </div>
             </div>
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">BATTLEFIELD HARDLINE</div>
+              <div className="side-popup tab5">
+                <div className="ide-text tab-5-text">CAREER</div>
               </div>
             </div>
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">CAREER</div>
+              <div className="side-popup tab6">
+                <div className="ide-text tab-6-text">WATCH</div>
               </div>
             </div>
             <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">WATCH</div>
-              </div>
-            </div>
-            <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">NEWS</div>
+              <div className="side-popup tab7">
+                <div className="ide-text tab-7-text">NEWS</div>
               </div>
             </div>
         </ul>
 
         <ul className="bottom-section">
           <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">HELP</div>
+              <div className="side-popup tab8">
+                <div className="ide-text tab-8-text">HELP</div>
               </div>
           </div>
           <div className="middle-container">
-              <div className="side-popup">
-                <div className="ide-text">QUIT</div>
+              <div className="side-popup tab9">
+                <div className="ide-text tab-9-text">QUIT</div>
               </div>
           </div>
 
         </ul>
 
+    </div>
+    <div className='for-border'></div>
     </div>
   );
 };

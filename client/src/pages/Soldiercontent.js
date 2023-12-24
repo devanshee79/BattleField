@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../resources/soldierContent.css';
 
 function Soldiercontent() {
   const [soldierData, setSoldierData] = useState(null);
@@ -31,7 +32,7 @@ function Soldiercontent() {
       ) : error ? (
         <div>{error}</div>
       ) : (
-        <div>
+        <div className='start'>
           {/* SOLDIER IMAGES */}
           <div className="soldier-look">
             <div className="soldier-some-part">
@@ -60,7 +61,7 @@ function Soldiercontent() {
                   <div className="soldier-level-current">
                     {soldierData.rank}/{soldierData.totaluser}
                   </div>
-                  <div className="soldier-level-estimate">- Estimated rank up in 1h</div>
+                  <div className="soldier-level-estimate"> - Estimated rank up in 1h</div>
                 </div>
                 <div className="soldir-level-status"></div>
               </div>
@@ -156,48 +157,48 @@ function Soldiercontent() {
                 {/* BOTTOM */}
                 <div className="soldier-game-stats-bottom">
                   {/* A */}
-                  <div className="soldier-game-stats-bottom-container">
-                    <div className="soldier-game-stats-bottom-container-header">TOP VEHICLE</div>
+                  <div className="soldier-game-stats-bottom-container c1">
+                    <div className="soldier-game-stats-bottom-container-header h1">TOP VEHICLE</div>
                     <div className="soldier-game-stats-bottom-container-info">
-                      <div className="soldier-game-stats-bottom-container-info-h">{soldierData.vehicleName}</div>
-                      <div className="soldier-game-stats-bottom-container-info-value">{soldierData.vehicleKills}</div>
+                      <div className="soldier-game-stats-bottom-container-info-h h1">{soldierData.vehicleName}</div>
+                      <div className="soldier-game-stats-bottom-container-info-value h1">{soldierData.vehicleKills}</div>
                     </div>
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc68123215c0f47c3c8_soldier__tank-white.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc68123215c0f47c3c8_soldier__tank-white.png" alt=""  className='img_class sub1'/>
                     {/* hover one */}
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc52754eb82199acdb5_soldier__tank-black.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc52754eb82199acdb5_soldier__tank-black.png" alt="" className='img_class sub2' />
                   </div>
                   {/* B */}
-                  <div className="soldier-game-stats-bottom-container">
-                    <div className="soldier-game-stats-bottom-container-header">TOP PRIMARY</div>
+                  <div className="soldier-game-stats-bottom-container c2">
+                    <div className="soldier-game-stats-bottom-container-header h2">TOP PRIMARY</div>
                     <div className="soldier-game-stats-bottom-container-info">
-                      <div className="soldier-game-stats-bottom-container-info-h">{soldierData.primaryName}</div>
-                      <div className="soldier-game-stats-bottom-container-info-value">{soldierData.primaryKills}</div>
+                      <div className="soldier-game-stats-bottom-container-info-h h2">{soldierData.primaryName}</div>
+                      <div className="soldier-game-stats-bottom-container-info-value h2">{soldierData.primaryKills}</div>
                     </div>
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc6b1a1baf4c6b4bff4_acw-white.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc6b1a1baf4c6b4bff4_acw-white.png" alt="" className='img_class1 sub3'/>
                     {/* hover one */}
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc6eabe3734a771d95a_acw-black.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc6eabe3734a771d95a_acw-black.png" alt="" className='img_class1 sub4'/>
                   </div>
                   {/* C */}
-                  <div className="soldier-game-stats-bottom-container">
-                    <div className="soldier-game-stats-bottom-container-header">TOP CLASS</div>
+                  <div className="soldier-game-stats-bottom-container c3">
+                    <div className="soldier-game-stats-bottom-container-header h3">TOP CLASS</div>
                     <div className="soldier-game-stats-bottom-container-info">
-                      <div className="soldier-game-stats-bottom-container-info-h">{soldierData.className}</div>
-                      <div className="soldier-game-stats-bottom-container-info-value">{soldierData.classKills}</div>
+                      <div className="soldier-game-stats-bottom-container-info-h h3">{soldierData.className}</div>
+                      <div className="soldier-game-stats-bottom-container-info-value h3">{soldierData.classKills}</div>
                     </div>
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1fa6cf2747d4ae31e5b_engineer-white.svg" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1fa6cf2747d4ae31e5b_engineer-white.svg" alt="" className='img_class2 sub5'/>
                     {/* hover one */}
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1fa034ba969f815fb11_engineer-black.svg" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1fa034ba969f815fb11_engineer-black.svg" alt="" className='img_class2 sub6'/>
                   </div>
                   {/* D */}
-                  <div className="soldier-game-stats-bottom-container">
-                    <div className="soldier-game-stats-bottom-container-header">TOP SIDEARM</div>
+                  <div className="soldier-game-stats-bottom-container c4">
+                    <div className="soldier-game-stats-bottom-container-header h4">TOP SIDEARM</div>
                     <div className="soldier-game-stats-bottom-container-info">
-                      <div className="soldier-game-stats-bottom-container-info-h">{soldierData.sidearmName}</div>
-                      <div className="soldier-game-stats-bottom-container-info-value">{soldierData.sidearmKills}</div>
+                      <div className="soldier-game-stats-bottom-container-info-h h4">{soldierData.sidearmName}</div>
+                      <div className="soldier-game-stats-bottom-container-info-value h4">{soldierData.sidearmKills}</div>
                     </div>
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc4d687fc55d8d3ed57_m9-white.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc4d687fc55d8d3ed57_m9-white.png" alt="" className='img_class3 sub7'/>
                     {/* hover one */}
-                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc3fbd3c9aec8ff96ed_m9-black.png" alt="" />
+                    <img src="https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038fcc3fbd3c9aec8ff96ed_m9-black.png" alt="" className='img_class3 sub8'/>
                   </div>
 
 

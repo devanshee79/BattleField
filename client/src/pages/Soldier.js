@@ -4,6 +4,7 @@ import Soldiercontent from './Soldiercontent';
 import Leftmenu from '../components/Leftmenu';
 import Rightmenu from '../components/Rightmenu';
 import '../resources/soldier.css';
+import '../resources/topNavbar.css';
 
 const onChange = (key) => {
     console.log(key);

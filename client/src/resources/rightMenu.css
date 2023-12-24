@@ -1,0 +1,203 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  /* .invite-block {
+    z-index: 9995;
+    width: 27vh;
+    height: -webkit-fill-available;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3.5vh;
+    padding-left: 1.5vh;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+    transform: translate3d(19vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.invite-row {
+    margin-bottom: 1.5vh;
+    position: relative;
+    width: auto;
+    left: 1vh;
+}
+
+.invite-line {
+    height: 1px;
+    width: auto;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.invite-img {
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+    display: inline-block;
+    height: fit-content !important;
+    width: fit-content !important;
+}
+
+.invite {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15999e303e7c202c28c_squad.svg");
+    background-repeat: no-repeat;
+    background-size: 1.5vh;
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 1.5vh !important;
+    display: inline-block;
+    width: auto !important;
+}
+
+.online {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab159d334e32483dbbcbb_online.svg");
+}
+
+.offline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab15904900760dbfa7f70_offline.svg");
+}
+
+.invite-h {
+    padding: 0 0 0 2vh;
+    margin: 0 0 0 0;
+    height: fit-content;
+    width: auto;
+    color: #fff;
+    letter-spacing: .08vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    opacity: 0;
+    margin-bottom: 1vh
+}
+
+.invite-item {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab158769fa828e95f98df_home__join-default.svg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: 4.3vh;
+    height: 4.3vh;
+    display: inline-block;
+}
+
+.invite-item-h {
+    opacity: 1;
+    padding: 2vh 0 2vh 5.5vh;
+    color: #fff;
+    letter-spacing: .08vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.2vh;
+    font-weight: 600;
+    line-height: 1.6vh;
+    padding: 0.4vh 0 0 3.5vh
+}
+
+.Ionline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1585908791f051d4af4_home__friend-picture-MaryJane.png");
+}
+
+.Ioffline {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1583424fd3ddf23a848_home__friend-picture-420.png");
+}
+
+.invite-block:hover {
+    transform: translate3d(0vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    background-color: rgba(16, 16, 16, 0.8);
+}
+
+.invite-block:hover .invite-line {
+    opacity: 1;
+}
+
+.invite-block:hover .invite-h {
+    opacity: 1;
+}
+
+.invite-h-row {
+    margin-top: 1.2vh;
+}
+
+.invite-row:hover {
+    background-color: white;
+}
+
+.invite-row:hover .invite-item-h {
+    color: black;
+}
+
+.invite-row:hover .invite-item {
+    opacity: 1;
+}
+
+.invite-row:hover .squad {
+    background-image: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601ab1596100550691c84f76_home__join-black.svg");
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
